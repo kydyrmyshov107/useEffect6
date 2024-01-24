@@ -1,0 +1,36 @@
+.items {
+  width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.inner {
+  border: 3px solid rgb(255, 255, 255);
+  width: 200px;
+  border-radius: 20px;
+}
+.button {
+  padding: 13px 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(56, 136, 255);
+  letter-spacing: 1.5px;
+  font-size: 11px;
+  transition: all 0.3s ease;
+  box-shadow: rgb(0, 65, 118) 0px 10px 0px 0px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: rgb(0, 58, 121) 0px 7px 0px 0px;
+}
+
+.button:active {
+  background-color: rgb(10, 73, 175);
+  box-shadow: rgb(0, 48, 93) 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 150ms;
+}
